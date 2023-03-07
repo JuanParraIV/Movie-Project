@@ -1,14 +1,13 @@
-import { useEffect } from 'react';
-
+import { queryDiscoverMovie, querySearchMovie } from '@/App/hooks/useMovies';
 
 
 const HomeContainer = () => {
+  //const { data, isLoading } = queryDiscoverMovie();
+  //const { data, isLoading } = querySearchMovie('Ho');
 
 
-  useEffect(() => {
-
-  }, []);
-
+/*   if (isLoading) return (<div>Loading...</div>);
+  console.log(data); */
 
   return (
     <>
@@ -16,7 +15,6 @@ const HomeContainer = () => {
       <main className="max-w-screen-2xl mx-auto">
         {/* <Banner /> */}
         {/* <ProductsFeed /> */}
-        <div>HOLA SOY EL HOME</div>
         {/* <MayLikeProducts /> */}
       </main>
       {/* <Footer /> */}
